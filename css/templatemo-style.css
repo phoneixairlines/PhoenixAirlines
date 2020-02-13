@@ -31,6 +31,7 @@ p {
 .section-heading {
   text-align: left;
   position: relative;
+  bottom:60px;
   margin-left: 60px;
 }
 /* .section-headingvisit {
