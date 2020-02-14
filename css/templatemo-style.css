@@ -31,30 +31,8 @@ p {
 .section-heading {
   text-align: left;
   position: relative;
-  bottom:60px;
-  margin-left: 60px;
+  margin-bottom: 12.5px;
 }
-/* .section-headingvisit {
-  text-align: right;
-  position: relative;
-  margin-bottom: 60px;
-  display: inline-block;
-  font-size: 15px;
-  line-height: 26px;
-  color: #343434;
-  position: absolute;
-  top: 12.5px;
-  margin-top: 0px;
-  font-size: 32px;
-  color: #232323;
-  display: inline-block;
-  margin-right: 50px;
-  font-style: normal;
-  font-weight: 700;
-  color: #45489a;
-
-} */
-
 
 .section-heading h1 {
   margin-top: 0px;
@@ -62,6 +40,7 @@ p {
   color: #232323;
   display: inline-block;
   margin-right: 50px;
+  margin-left: 25px;
 }
 .section-heading em {
   font-style: normal;
@@ -75,7 +54,8 @@ p {
   line-height: 26px;
   color: #343434;
   position: absolute;
-  top: 12.5px;
+  top: 8.5px;
+  bottom: 8px;
 }
 
 .white-button a {
