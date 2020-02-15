@@ -1,609 +1,572 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Phoenix Airlines</title>
-        
-<!-- 
 
-Sentra Template
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Phoenix Airlines</title>
+    <link rel = "icon" href =  
+    "img/Phoenix Logo.png" 
+            type = "image/x-icon"> 
 
-https://templatemo.com/tm-518-sentra
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
--->
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/light-box.css">
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/fontAwesome.css">
-        <link rel="stylesheet" href="css/light-box.css">
-        <link rel="stylesheet" href="css/owl-carousel.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <!-- Start of Async Drift Code -->
+    <script>
+        "use strict";
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
+        !function () {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function (e) {
+                        return function () {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function (e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function (t) {
+                        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('hxeaiyeaammv');
+    </script>
+    <!-- End of Async Drift Code -->
+</head>
 
 <body>
 
 
 
-        <header class="nav-down responsive-nav hidden-lg hidden-md">
-            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!--/.navbar-header-->
-            <div id="main-nav" class="collapse navbar-collapse">
-                <nav>
-                    <ul class="nav navbar-nav">
-                        <li><a href="#top">Home</a></li>
-                        <li><a href="#featured">Frequent flyer program</a></li>
-                        <li><a href="#projects">Destinations</a></li>
-                        <li><a href="#video">What we offer?</a></li>
-                        <li><a href="#blog">Careers</a></li>
-                        <li><a href="#contact">Questions or Queries</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <div class="sidebar-navigation hidde-sm hidden-xs">
-            <div class="logo">
-                <a href="#">Sen<em>tra</em></a>
-            </div>
+    <header class="nav-down responsive-nav hidden-lg hidden-md">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <!--/.navbar-header-->
+        <div id="main-nav" class="collapse navbar-collapse">
             <nav>
-                <ul>
-                    <li>
-                        <a href="#top">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#frequentflyerprogram">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            Frequent flyer program
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#projects">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            Destinations
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#video">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            What we offer?
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#blog">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            Careers
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contact">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            Questions or Queries
-                        </a>
-                    </li>
+                <ul class="nav navbar-nav">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#whoweare">e are?</a></li>
+                    <li><a href="#featured">Frequent flyer program</a></li>
+                    <li><a href="booking/booking.html">Book</a></li>
+                    <li><a href="#">Check your flight</a></li>
+                    <li><a href="#projects">Destinations</a></li>
+                    <li><a href="#video">What we offer?</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#contact">Questions</a></li>
                 </ul>
             </nav>
-            <ul class="social-icons">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-            </ul>
         </div>
+    </header>
 
-        <div class="slider">
-            <div class="Modern-Slider content-section" id="top">
-                <!-- Item -->
-                <div class="item item-1">
-                    <div class="img-fill">
+    <div class="sidebar-navigation hidde-sm hidden-xs">
+        <div class="logo">
+            <a href="index.html">Phoenix<em>Airlines</em></a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#top">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#whoweare">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        Who we are?
+                    </a>
+                </li>
+                <li>
+                    <a href="#frequentflyerprogram">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        Frequent flyer program
+                    </a>
+                </li>
+                <li>
+                    <a href="booking/booking.html">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        Book your ticket
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        Destinations
+                    </a>
+                </li>
+                <li>
+                    <a href="#video">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        What we offer?
+                    </a>
+                </li>
+                <li>
+                    <a href="#blog">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        Careers
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        Questions or Queries
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+        <ul class="social-icons">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="slider">
+        <div class="Modern-Slider content-section" id="top">
+            <!-- Item -->
+            <div class="item item-1">
+                <div class="img-fill">
                     <div class="image"></div>
                     <div class="info">
                         <div>
-                          <h1>Phoenix Airlines</h1>
-                          <p>Proudly soar the skies in comfort and style.</p>
-                          <div class="white-button button">
-                              <a href="#whoweare">Click here to learn more.</a>
-                          </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Book request slide 2 -->
-                <div class="item item-2">
-                    <div class="img-fill">
-                        <div class="image"></div>
-                        <div class="info">
-                        <div>
-                          <h1>Fly with us.</h1>
-                          <p>Travel in comfort in our new A320 <br>where all your dreams come true with<br> topclass entertainment,
-							reclinable seats, <br>buffet and beverages.</p>
-                          
-                          <div class="white-button button">
-                              <a href="#whoweare">Book Your Ticket Now</a>
-                          </div>
-                        </div>
+                            <h1>Phoenix Airlines</h1>
+                            <p>Proudly soar the skies in comfort and style.</p>
+                            <div class="white-button button">
+                                <a href="#whoweare">Click here to learn more.</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- Third slide -->
-                <div class="item item-3">
-                    <div class="img-fill">
-                        <div class="image"></div>
-                        <div class="info">
-                        <div>
-                          <h1>Join our loyalty program</h1>
-                          <p>By joining our loyalty program you will receive exclusive rewards and benefits<br>for travelling with us.</p>
-                          
-                          <div class="white-button button">
-                              <a href="#frequentflyerprogram">Learn More</a>
-                          </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Item -->
             </div>
+            <!-- Book request slide 2 -->
+            <div class="item item-2">
+                <div class="img-fill">
+                    <div class="image"></div>
+                    <div class="info">
+                        <div>
+                            <h1>Fly with us.</h1>
+                            <p>Travel in comfort in our new A320 <br>where all your dreams come true with<br> topclass
+                                entertainment,
+                                reclinable seats, <br>buffet and beverages.</p>
+
+                            <div class="white-button button">
+                                <a href="booking/booking.html">Book Your Ticket Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Third slide -->
+            <div class="item item-3">
+                <div class="img-fill">
+                    <div class="image"></div>
+                    <div class="info">
+                        <div>
+                            <h1>Join our loyalty program</h1>
+                            <p>By joining our loyalty program you will receive exclusive rewards and benefits<br>for
+                                travelling with us.</p>
+
+                            <div class="white-button button">
+                                <a href="#frequentflyerprogram">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- // Item -->
         </div>
+    </div>
 
 
-        <div class="page-content">
-            <section id="whoweare" class="content-section">
-                <div class="section-heading">
-                    <h1>Who<br><em>we</em> are?</h1>
-                    <p>Praesent pellentesque efficitur magna, 
-                    <br>sed pellentesque neque malesuada vitae.</p>
-                </div>
-                <div class="section-content">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/featured_2.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>In volutpat augue lectus</h4>
-                                <span>Elementum</span>
-                                <p>#4 Aliquam mollis lacus eget metus efficitur lobortis. Suspendisse libero lacus, accumsan vitae commodo tristique, luctus gravida metus.</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/featured_1.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>Cras commodo odio</h4>
-                                <span>Aliquam</span>
-                                <p>#5 Mauris lacinia pretium libero, ut tincidunt lacus molestie ornare. Phasellus a facilisis erat. Praesent eleifend nibh mauris, quis sodales lorem convallis pulvinar.</p>
-                            </div>
-                        </div>
-                      
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/featured_3.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>Proin sit amet fringilla erat</h4>
-                                <span>Convallis</span>
-                                <p>#9 Suspendisse suscipit nulla sed nisl fermentum, auctor suscipit nunc rhoncus. Proin faucibus metus diam, nec hendrerit purus pharetra in.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="frequentflyerprogram" class="content-section">
-                <div class="section-heading">
-                    <h1>Featured<br><em>Places</em></h1>
-                    <p>Praesent pellentesque efficitur magna, 
-                    <br>sed pellentesque neque malesuada vitae.</p>
-                </div>
-                <div class="section-content">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/featured_2.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>Phasellus a lacus ac odio</h4>
-                                <span>Maximus</span>
-                                <p>#2 You are NOT allowed to re-distribute this on any template website. You <strong>can post</strong> a screenshot and a link back to original template page on your blog or site. Thank you.</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/featured_3.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>Proin sit amet fringilla</h4>
-                                <span>Vulputate</span>
-                                <p>#3 Aliquam mollis lacus eget metus efficitur lobortis. Suspendisse libero lacus, accumsan vitae commodo tristique, luctus gravida metus.</p>
-                            </div>
-                        </div>
-                     
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/featured_3.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>Proin sit amet fringilla erat</h4>
-                                <span>Convallis</span>
-                                <p>#9 Suspendisse suscipit nulla sed nisl fermentum, auctor suscipit nunc rhoncus. Proin faucibus metus diam, nec hendrerit purus pharetra in.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="projects" class="content-section">
-                <div class="section-heading">
-                    <h1>Recent<br><em>Projects</em></h1>
-                    <p>Praesent pellentesque efficitur magna, 
-                    <br>sed pellentesque neque malesuada vitae.</p>
-                </div>
-                <div class="section-content">
-                    <div class="masonry">
-                        <div class="row">
-                            <div class="item">
-                                <div class="col-md-8">
-                                    <a href="img/portfolio_big_1.jpg" data-lightbox="image"><img src="img/portfolio_1.jpg" alt="image 1"></a>
-                                </div>
-                            </div>
-                            <div class="item second-item">
-                                <div class="col-md-4">
-                                    <a href="img/portfolio_big_2.jpg" data-lightbox="image"><img src="img/portfolio_2.jpg" alt="image 2"></a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-4">
-                                    <a href="img/portfolio_big_3.jpg" data-lightbox="image"><img src="img/portfolio_3.jpg" alt="image 3"></a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-4">
-                                    <a href="img/portfolio_big_4.jpg" data-lightbox="image"><img src="img/portfolio_4.jpg" alt="image 4"></a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-8">
-                                    <a href="img/portfolio_big_5.jpg" data-lightbox="image"><img src="img/portfolio_5.jpg" alt="image 5"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>            
-            </section>
-            <section id="video" class="content-section">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-heading">
-                            <h1>This is a <em>company</em> presentation.</h1>
-                            <p>Praesent pellentesque efficitur magna, sed pellentesque neque malesuada vitae.</p>
+    <div class="page-content">
+        <section id="whoweare" class="content-section">
+            <div class="section-heading">
+                <h1>Who<br><em>we</em> are?</h1>
+                <p>Phoenix airlines is a premium airline service with professionally
+                    cultivated staff, dedicated to improve your experience while helping
+                     you get to your destination at an effective price.</p>
+            </div>
+            <div class="section-content">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="image">
+                            <img src="https://images.unsplash.com/photo-1561414926-0ae39e14fc4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" height="360" width="306" alt="">
                         </div>
                         <div class="text-content">
-                            <p>In eget ipsum sed lorem vehicula luctus. Curabitur non dolor rhoncus, hendrerit justo sit amet, vestibulum turpis. Pellentesque id auctor tellus, vel ultricies augue. Duis condimentum aliquet blandit. Fusce rhoncus et eros ut pharetra. Phasellus convallis ultricies ligula ac gravida.</p>
-                        </div>
-                        <div class="accent-button button">
-                            <a href="#blog">Continue Reading</a>
+                            <h4>Inexpensive</h4>
+
+                            <p>  Here at Phoenix Airlines, we expect you to pay less for more. Knowing that, 
+                                Phoenix Airlines offers the cheapest airlines today!</p>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <div class="box-video">
-                            <div class="bg-video" style="background-image: url(https://unsplash.imgix.net/photo-1425036458755-dc303a604201?fit=crop&fm=jpg&q=75&w=1000);">
-                                <div class="bt-play">Play</div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="https://content.delta.com/content/www/en_US/traveling-with-us/onboard-experience/delta-premium-economy.damAsset.20191003T1543186000400.html/content/dam/delta-www/responsive/products/onboard/dps-customer-drinking-reclining-990.jpg" height="360" width="306" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Comfort</h4>
+
+                            <p>We know that there is no plane if it fails to keep their customers comfortable.
+                               Our planes have well-spaced seating, insulation, and the latest sound proof technology. Making your experience just like first class.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="image">
+                            <img src= "https://images.crateandbarrel.com/is/image/Crate/HipChampageSHF17/?$web_zoom$&190411135118&wid=450&hei=450" width="306"
+                            height="360" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Quality</h4>
+
+                            <p>Who doesn't like good food on a plane right after a long journey! Freshly cooked, and the taste of different cuisines all in one just for you!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="frequentflyerprogram" class="content-section">
+            <div class="section-heading">
+                <h1>Frequent<br><em>Flyer</em> Program</h1>
+                <p>Select one of three plans according to your travel style <br>
+                    and receive perks and exclusive benefits by signing up for our flyer program.</p>
+            </div>
+            <div class="section-content">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="image">
+                            <img src="https://www.pickolor.com/images/listing/credit-card-black.jpg" width="306" height="360" alt="">
+                            <div class="featured-button button">
+                                <a href="#projects">Sign up now</a>
                             </div>
-                            <div class="video-container">
-                                <iframe width="100%" height="520" src="https://www.youtube.com/embed/j-_7Ub-Zkow?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                        </div>
+                        <div class="text-content">
+                            <h4>Silver</h4>
+                            <p>This plan is perfect for a small family, gather points for travelling with us. You could receive monthly updates 
+                                and you could apply your points towards booking your next ticket or receive an upgrade. With only
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="https://www.nerdwallet.com/assets/blog/wp-content/uploads/2016/05/gold-platinum-card-lost-their-shine.jpg"  width="306" height="360" alt="">
+                            <div class="featured-button button">
+                                <a href="#projects">Sign up now</a>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h4>Gold</h4>
+                            <p>With the gold membership you would be eligible to get access to our business class lounge, and you would and you
+                                or your family would receive discount for your next vacation.
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="https://cdn-media.rtl.fr/cache/k9Bxt_5Sc6iDB_TrrDypWg/880v587-0/online/image/2014/0610/7772506525_la-carte-bancaire-un-moyen-de-paiement-lie-a-un-contrat.jpg" width="306" height="360" alt="">
+                            <div class="featured-button button">
+                                <a href="#projects">Sign up now</a>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h4>Platnium</h4>
+                            <p>Platinum is the highest membership and you would have access to al our amenities in the lounge, plane
+                                and partner hotels. Also, you have the chance to save 30 percent of your vacation booking and you would receive
+                                a free ticket to a destination of your choice each year.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="content-section">
+            <div class="section-heading">
+                <h1>Destination to<br><em>visit</em></h1>
+                <p>Below are a a few of many places which,
+                    <br>our airline travels to. Travel to these places in comfort and style<br>
+                    with our airline.</p>
+            </div>
+            <!--below is the famous destinations-->
+            <div class="section-content">
+                <div class="masonry">
+                    <div class="row">
+                        <div class="item">
+                            <div class="col-md-8">
+                                <a href="https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/north-america/united-states/newyork/newyork_NationalGeographic_2328428.adapt.1900.1.jpg" data-lightbox="image"><img
+                                        src="https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/north-america/united-states/newyork/newyork_NationalGeographic_2328428.adapt.1900.1.jpg"
+                                        alt="image 1"></a>
+                            </div>
+                        </div>
+                        <div class="item second-item">
+                            <div class="col-md-4">
+                                <a href="https://cdn.londonandpartners.com/assets/73295-640x360-london-skyline-ns.jpg" data-lightbox="image"><img
+                                        src="https://cdn.londonandpartners.com/assets/73295-640x360-london-skyline-ns.jpg"
+                                        alt="image 2"></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-md-4">
+                                <a href="https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/australia-oceania/sydney-travel.adapt.1900.1.jpg" data-lightbox="image"><img
+                                        src="https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/australia-oceania/sydney-travel.adapt.1900.1.jpg"
+                                        alt="image 3"></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-md-4">
+                                <a href="https://www.nationalgeographic.com/content/dam/travel/2018-digital/best-trips-mexico-city-corn/corn-mexico-city01.adapt.1900.1.jpg" data-lightbox="image"><img
+                                        src="https://www.nationalgeographic.com/content/dam/travel/2018-digital/best-trips-mexico-city-corn/corn-mexico-city01.adapt.1900.1.jpg"
+                                        alt="image 5"></a>
+                            </div>
+                        </div>
+                        <div class="item2">
+                            <div class="col-md-8">
+                                <a href="https://www.ecopetit.cat/wpic/mpic/115-1159761_good-germany-wallpaper-germany-4k.jpg" data-lightbox="image"><img
+                                        src="https://www.ecopetit.cat/wpic/mpic/115-1159761_good-germany-wallpaper-germany-4k.jpg"
+                                        alt="image 5" height="270" width="565"></a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="blog" class="content-section">
+            </div>
+        </section>
+        <style>
+        .item2{
+            position:relative;
+            bottom:220px;
+        
+            
+        }
+        </style>
+
+
+
+        <section id="video" class="content-section">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                      <span id="type"></span>
+                        <script type="text/javascript" src="js/typed.js"></script>
+        <script type="text/javascript">
+                  var typed = new Typed('#type',{
+                   strings:[
+                     "What we offer?",
+                     "Cheap Prices.",
+                     "Quality.",
+                     "More Choices",
+                     "Comfort",
+                    ],
+
+                   typeSpeed: 100,
+                   loop: true,
+
+                 });
+</script>
+                      
+                    </div>
+                    <div class="text-content">
+                        <p class="undertype">Phoenix Airlines offers many services that are affordable, and comfortable
+                           giving you the best flight experience possible.
+                           When you are happy, that's when we set ourselves free. Book your ticket with 
+                            our best airlines today, and take a look at our prestige.</p>
+                    </div>
+                    <div class="accent-button button">
+                        <a href="#blog">Take a look at our virtual experience</a>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="box-video">
+                        <div class="bg-video"
+                            style="background-image: url(https://unsplash.imgix.net/photo-1425036458755-dc303a604201?fit=crop&fm=jpg&q=75&w=1000);">
+                            <div class="bt-play">Play</div>
+                        </div>
+                        <div class="video-container">
+                            <iframe width="100%" height="520"
+                                src="https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=3000533550" frameborder="0"
+                                allowfullscreen="allowfullscreen"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="content-section">
+            <div class="section-heading">
+                <h1>Work with<br><em>us</em></h1>
+                <p >Phoenix Airlines is rated number as the number one airline of 2020 due
+                    <br>to our state of the art customer service. You can join our team and
+                    <br>work with us to thrive and remain as the top airline.</p>
+            </div>
+            <div class="section-content">
+                <div class="tabs-content">
+                    <div class="wrapper">
+                        <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                            <li><a href="#tab1" class="active">Current openings</a></li>
+                        </ul>
+                        <section id="first-tab-group" class="tabgroup">
+                            <div id="tab1">
+                                <ul>
+                                    <li>
+                                        <div class="item">
+                                            <img src="https://www.mfa.edu.my/sites/default/files/courses-04_0.jpg"
+                                            width="280" height="175">
+                                            <div class="text-content">
+                                                <h4>Assistant Pilot</h4>
+                                                <span>End date: February 28, 2020</span>
+                                                <p>Phoenix Airlines is seeking for an induvidual who has completed their
+                                                    pilot training and
+                                                    hold more than 2-3 years of experience as an assisstant pilot. It is
+                                                    necessary
+                                                    for the applicant to be above the age of 23.
+                                                </p>
+                                                <div class="accent-button button">
+                                                    <a href="http://eepurl.com/gSFsqb">Apply Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item">
+                                            <img src="data:image/jpeg;base64,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"
+                                                alt="">
+                                            <div class="text-content">
+                                                <h4>Pilot</h4>
+                                                <span>End date: February 28, 2020</span>
+                                                <p>A senior pilot with more than 4-6 years is eligible for this
+                                                    position. Applicants must be multilingual
+                                                    with knowledge of 4 or more languages, also the applicant must have
+                                                    near perfect eyesight.
+                                                </p>
+
+                                                <div class="accent-button button">
+                                                    <a href="http://eepurl.com/gSFsqb">Apply Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item">
+                                            <img src="https://www.skylarkinstitute.co.in/blog/wp-content/uploads/2017/06/7-reasons-being-an-airhostess.jpg"
+                                            width="280" height="175">
+                                            <div class="text-content">
+                                                <h4>Air hostess</h4>
+                                                <span>End date: February 28, 2020</span>
+                                                <p>Applicants must be above the age of 21 are eligible to apply, and it
+                                                    is required that
+                                                    applicants must be multilingual
+                                                    with knowledge of 4 or more languages. </p>
+
+                                                <div class="accent-button button">
+                                                    <a href="http://eepurl.com/gSFsqb">Apply Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="content-section">
+            <div class="section-heading" >
+                <h1>Visit <br><em> our</em> head office</h1>
+                <p>For more information about career opportunities contact us<br>
+                or visit our head office at the location listed below.</p>
+            </div>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.14548375125!2d-79.60584698499264!3d43.6867387582802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b399d6d583c81%3A0x941d6e177cdad92b!2s5875%20Airport%20Rd%2C%20Mississauga%2C%20ON%20L4V%201C8!5e0!3m2!1sen!2sca!4v1581604851284!5m2!1sen!2sca" 
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div id="contact-content">
                 <div class="section-heading">
-                    <h1>Blog<br><em>Entries</em></h1>
-                    <p>Curabitur hendrerit mauris mollis ipsum vulputate rutrum. 
-                    <br>Phasellus luctus odio eget dui imperdiet.</p>
+                    <h1>Contact<br><em>Phoenix Airlines</em></h1>
+                    <p>Any questions you have about out services, flights, tickets or feedback
+                        <br>contact us now and we will respond as soon as possible.</p>
+
                 </div>
                 <div class="section-content">
-                    <div class="tabs-content">
-                        <div class="wrapper">
-                            <ul class="tabs clearfix" data-tabgroup="first-tab-group">
-                              <li><a href="#tab1" class="active">July 2018</a></li>
-                              <li><a href="#tab2">June 2018</a></li>
-                              <li><a href="#tab3">May 2018</a></li>
-                              <li><a href="#tab4">April 2018</a></li>
-                            </ul>
-                            <section id="first-tab-group" class="tabgroup">
-                                <div id="tab1">
-                                    <ul>
-                                        <li>
-                                            <div class="item">
-                                                <img src="img/blog_1.jpg" alt="">
-                                                <div class="text-content">
-                                                    <h4>Integer ultrices augue</h4>
-                                                    <span>25 July 2018</span>
-                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
-                                                    
-                                                    <div class="accent-button button">
-                                                        <a href="#contact">Continue Reading</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="item">
-                                                <img src="img/blog_2.jpg" alt="">
-                                                <div class="text-content">
-                                                    <h4>Cras commodo odio ut</h4>
-                                                    <span>16 July 2018</span>
-                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
-                                                    
-                                                    <div class="accent-button button">
-                                                        <a href="#contact">Continue Reading</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="item">
-                                                <img src="img/blog_3.jpg" alt="">
-                                                <div class="text-content">
-                                                    <h4>Sed at massa turpis</h4>
-                                                    <span>10 July 2018</span>
-                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
-                                                    
-                                                    <div class="accent-button button">
-                                                        <a href="#contact">Continue Reading</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div id="tab2">
-                                    <ul>
-                                        <li>
-                                            <div class="item">
-                                                <img src="img/blog_3.jpg" alt="">
-                                                <div class="text-content">
-                                                    <h4>Sed at massa turpis</h4>
-                                                    <span>30 June 2018</span>
-                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
-                                                    
-                                                    <div class="accent-button button">
-                                                        <a href="#contact">Continue Reading</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="item">
-                                                <img src="img/blog_1.jpg" alt="">
-                                                <div class="text-content">
-                                                    <h4>Lorem ipsum dolor sit</h4>
-                                                    <span>24 June 2018</span>
-                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
-                                                    
-                                                    <div class="accent-button button">
-                                                        <a href="#contact">Continue Reading</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="item">
-                                                <img src="img/blog_2.jpg" alt="">
-                                                <div class="text-content">
-                                                    <h4>Cras commodo odio ut</h4>
-                                                    <span>12 June 2018</span>
-                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
-                                                    
-                                                    <div class="accent-button button">
-                                                        <a href="#contact">Continue Reading</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div id="tab3">
-                                    <ul>
-                                        <li>
-                                            <div class="item">
-                                                <img src="img/blog_2.jpg" alt="">
-                                                <div class="text-content">
-                                                    <h4>Cras commodo odio ut</h4>
-                                                    <span>26 May 2018</span>
-                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
-                                                    
-                                                    <div class="accent-button button">
-                                                        <a href="#contact">Continue Reading</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="item">
-                                                <img src="img/blog_1.jpg" alt="">
-                                                <div class="text-content">
-                                                    <h4>Lorem ipsum dolor sit</h4>
-                                                    <span>22 May 2018</span>
-                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
-                                                    
-                                                    <div class="accent-button button">
-                                                        <a href="#contact">Continue Reading</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="item">
-                                                <img src="img/blog_3.jpg" alt="">
-                                                <div class="text-content">
-                                                    <h4>Integer ultrices augue</h4>
-                                                    <span>8 May 2018</span>
-                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
-                                                    
-                                                    <div class="accent-button button">
-                                                        <a href="#contact">Continue Reading</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div id="tab4">
-                                    <ul>
-                                        <li>
-                                            <div class="item">
-                                                <img src="img/blog_1.jpg" alt="">
-                                                <div class="text-content">
-                                                    <h4>Lorem ipsum dolor sit</h4>
-                                                    <span>26 April 2018</span>
-                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
-                                                    
-                                                    <div class="accent-button button">
-                                                        <a href="#contact">Continue Reading</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>                                
-                                        <li>
-                                            <div class="item">
-                                                <img src="img/blog_3.jpg" alt="">
-                                                <div class="text-content">
-                                                    <h4>Integer ultrices augue eu</h4>
-                                                    <span>24 April 2018</span>
-                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
-                                                    
-                                                    <div class="accent-button button">
-                                                        <a href="#contact">Continue Reading</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="item">
-                                                <img src="img/blog_2.jpg" alt="">
-                                                <div class="text-content">
-                                                    <h4>Cras commodo odio ut</h4>
-                                                    <span>20 April 2018</span>
-                                                    <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
-                                                    
-                                                    <div class="accent-button button">
-                                                        <a href="#contact">Continue Reading</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </section> 
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="contact" class="content-section">
-                <div id="map">
-                
-                	<!-- How to change your own map point
-                           1. Go to Google Maps
-                           2. Click on your location point
-                           3. Click "Share" and choose "Embed map" tab
-                           4. Copy only URL and paste it within the src="" field below
-                    -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1197183.8373802372!2d-1.9415093691103689!3d6.781986417238027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb96f349e85efd%3A0xb8d1e0b88af1f0f5!2sKumasi+Central+Market!5e0!3m2!1sen!2sth!4v1532967884907" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-                <div id="contact-content">
-                    <div class="section-heading">
-                        <h1>Contact<br><em>Sentra</em></h1>
-                        <p>Curabitur hendrerit mauris mollis ipsum vulputate rutrum. 
-                        <br>Phasellus luctus odio eget dui imperdiet.</p>
-                        
-                    </div>
-                    <div class="section-content">
-                        <form id="contact" action="#" method="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <fieldset>
-                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
-                                  </fieldset>
-                                </div>
-                                <div class="col-md-4">
-                                  <fieldset>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
-                                  </fieldset>
-                                </div>
-                                 <div class="col-md-4">
-                                  <fieldset>
-                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="">
-                                  </fieldset>
-                                </div>
-                                <div class="col-md-12">
-                                  <fieldset>
-                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
-                                  </fieldset>
-                                </div>
-                                <div class="col-md-12">
-                                  <fieldset>
-                                    <button type="submit" id="form-submit" class="btn">Send Message Now</button>
-                                  </fieldset>
-                                </div>
+                    <form id="contact" action="#" method="post">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name"
+                                        placeholder="Your name..." required="">
+                                </fieldset>
                             </div>
-                        </form>
-                    </div>
+                            <div class="col-md-4">
+                                <fieldset>
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="Your email..." required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-4">
+                                <fieldset>
+                                    <input name="subject" type="text" class="form-control" id="subject"
+                                        placeholder="Subject..." required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message"
+                                        placeholder="Your message..." required=""></textarea>
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <button type="submit" id="form-submit" class="btn">Send Message Now</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-            </section>
-            <section class="footer">
-                <p>Copyright &copy; 2019 Company Name 
-                
-                . Design: TemplateMo</p>
-            </section>
-        </div>
+            </div>
+        </section>
+        <section class="footer">
+            <p>Copyright &copy; 2020 Phoenix Airlines</p>
+        </section>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
     <script src="js/vendor/bootstrap.min.js"></script>
-    
+
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
@@ -614,11 +577,11 @@ https://templatemo.com/tm-518-sentra
         var delta = 5;
         var navbarHeight = $('header').outerHeight();
 
-        $(window).scroll(function(event){
+        $(window).scroll(function (event) {
             didScroll = true;
         });
 
-        setInterval(function() {
+        setInterval(function () {
             if (didScroll) {
                 hasScrolled();
                 didScroll = false;
@@ -627,23 +590,23 @@ https://templatemo.com/tm-518-sentra
 
         function hasScrolled() {
             var st = $(this).scrollTop();
-            
+
             // Make sure they scroll more than delta
-            if(Math.abs(lastScrollTop - st) <= delta)
+            if (Math.abs(lastScrollTop - st) <= delta)
                 return;
-            
+
             // If they scrolled down and are past the navbar, add class .nav-up.
             // This is necessary so you never see what is "behind" the navbar.
-            if (st > lastScrollTop && st > navbarHeight){
+            if (st > lastScrollTop && st > navbarHeight) {
                 // Scroll Down
                 $('header').removeClass('nav-down').addClass('nav-up');
             } else {
                 // Scroll Up
-                if(st + $(window).height() < $(document).height()) {
+                if (st + $(window).height() < $(document).height()) {
                     $('header').removeClass('nav-up').addClass('nav-down');
                 }
             }
-            
+
             lastScrollTop = st;
         }
     </script>
@@ -651,4 +614,5 @@ https://templatemo.com/tm-518-sentra
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
 
 </body>
+
 </html>
