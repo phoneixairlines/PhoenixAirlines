@@ -424,6 +424,9 @@ header {
 .Modern-Slider .item-3 .image {
   background-image: url("https://www.wallpapers13.com/wp-content/uploads/2018/10/Sunrise-Venice-Italy-The-Grand-Canal-and-Lagoon-from-the-Bridge-Academy-or-Ponte-DelAccademy-HD-Wallpapers-for-Desktop-and-Mobile-Phones-3840x2400-1600x1200.jpg");
 }
+.Modern-Slider .item-4 .image {
+  background-image: url("https://i.pinimg.com/originals/04/8c/8e/048c8e251c1a6a1a9f8b35f68dcd8b52.gif");
+}
 
 .Modern-Slider .PrevArrow:before{content:'\f104';}
 
