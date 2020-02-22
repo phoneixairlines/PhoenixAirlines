@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="flighttime.css">
+        <script>
+            $(window).on("load resize ", function () {
+                var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
+                $('.tbl-header').css({ 'padding-right': scrollWidth });
+            }).resize();
+        </script>
+    </head>
+    <title>
+        Flight information
+    </title>
+
+<section>
+  <!--for demo wrap-->
+  <h1>Flight time</h1>
+  <div class="bckimage">
+      
+  <div class="tbl-header">
+    
+    <table cellpadding="0" cellspacing="0" border="0">
+      <thead>
+        <tr>
+          <th>Flight Number</th>
+          <th>Destination</th>
+          <th>Date</th>
+          <th>Departure<br>time (24 Hr)</th>
+          <th>Arrival<br>time (24 Hr)</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div class="tbl-content">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <tbody>
+        <tr>
+          <td>BGK759</td>
+          <td>Calgary</td>
+          <td>28/02/2020 </td>
+          <td> 3:32</td>
+          <td> 6:12</td>
+        </tr>
+        <tr>
+          <td>SHG637</td>
+          <td>Montreal</td>
+          <td>28/02/2020 </td>
+          <td>10:39</td>
+          <td>12:40</td>
+        </tr>
+        <tr>
+          <td>JGH381</td>
+          <td>Montreal</td>
+          <td>08/03/2020</td>
+          <td>17:32</td>
+          <td>18:45</td>
+        </tr>
+        <tr>
+          <td>CJP368</td>
+          <td>Surrey</td>
+          <td>08/03/2020</td>
+          <td>17:40</td>
+          <td>20:01</td>
+        </tr>
+        <tr>
+          <td>XEF786</td>
+          <td>Regina</td>
+          <td>08/03/2020</td>
+          <td>21:17</td>
+          <td>23:28</td>
+        </tr>
+        <tr>
+          <td>RII698</td>
+          <td>Toronto</td>
+          <td>19/03/2020</td>
+          <td>6:12</td>
+          <td>9:24</td>
+        </tr>
+        <tr>
+          <td>PGH798</td>
+          <td>Thunderbay</td>
+          <td>19/03/2020</td>
+          <td>10:03</td>
+          <td>14:30</td>
+        </tr>
+        <tr>
+          <td>KLF587</td>
+          <td>Montreal</td>
+          <td>19/03/2020</td>
+          <td>15:00</td>
+          <td>17:16</td>
+        </tr>
+        <tr>
+            <td>CKJ947</td>
+            <td>Federicton</td>
+            <td>22/03/2020 </td>
+            <td>7:31</td>
+            <td>10:06</td>
+        </tr>
+        <tr>
+            <td>JFM242</td>
+            <td>Toronto</td>
+            <td>22/03/2020 </td>
+            <td>11:09</td>
+            <td>13:20</td>
+        </tr>
+        <tr>
+            <td>VET741</td>
+            <td>Ottawa</td>
+            <td>24/03/2020</td>
+            <td>18:03</td>
+            <td>20:19</td>
+        </tr>
+        <tr>
+            <td>PKV097</td>
+            <td>Vancouver</td>
+            <td>24/03/2020</td>
+            <td>18:09</td>
+            <td>21:22</td>
+        </tr>
+        <tr>
+            <td>VIS358</td>
+            <td>Halifax</td>
+            <td>24/03/2020</td>
+            <td>21:10</td>
+            <td>23:22</td>
+        </tr>
+        <tr>
+            <td>GCG956</td>
+            <td>St.John's</td>
+            <td>28/03/2020</td>
+            <td>1:10</td>
+            <td>3:22</td>
+        </tr>
+        <tr>
+            <td>RVL658</td>
+            <td>Toronto</td>
+            <td>28/03/2020</td>
+            <td>21:10</td>
+            <td>23:22</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</section>
+
+
+<!-- follow me template -->
+<div class="Footer">
+  Phoenix Airlines<br>
+  <a target="_blank" href="putourhomepagelink">Home</a>
+</div>
+</html>
